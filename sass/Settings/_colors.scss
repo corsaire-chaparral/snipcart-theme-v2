@@ -13,13 +13,15 @@ $palettes: (
     ),
     button: (
         background: #555,
-        background--highlight: #efe778,
+        background--highlight: #ffa300,
         background--hover: darken(#555, 10%),
         background--danger: #f10,
         background--danger-hover: darken(#f10, 10%),
-        background--highlight-hover: darken(#efe778, 10%),
+        background--highlight-hover: darken(#ffa300, 4%),
         color: #fff,
-        color--highlight: #222,
+        color--hover: inherit,
+        color--highlight: #000,
+        color--highlight-hover: #000,
     ),
     error: (
         color: #f10,
@@ -29,7 +31,7 @@ $palettes: (
     badge: (
         background--success: #76d443,
         background--error: #f10,
-        background--warn: #efe778,
+        background--warn: #ffa300,
         text--success: #333,
         text--error: #fff,
         text--warn: #333
@@ -37,14 +39,14 @@ $palettes: (
     flash: (
         background--error: #f10,
         background--success: #76d443,
-        background--warning: #efe778,
-        background--confirm: #222,
+        background--warning: #ffa300,
+        background--confirm: #000,
         border: #333,
         color: #333,
         color--invert: #fff
     ),
     footer: (
-        background: #222,
+        background: #000,
         color: #555,
         color--highlight: #999
     ),
@@ -57,7 +59,7 @@ $palettes: (
         label-color: #999
     ),
     header: (
-        background: #222,
+        background: #000,
         background--highlight: #111,
         color: #fff,
         label-color: #999
@@ -72,8 +74,8 @@ $palettes: (
         loading-color: #333
     ),
     loader: (
-        background: #222,
-        background--highlight: #efe778
+        background: #000,
+        background--highlight: #ffa300
     ),
     product: (
         background: #f8f8f8,
@@ -83,7 +85,7 @@ $palettes: (
     ),
     quantity-trigger: (
         background: #ccc,
-        background--hover: #efe778,
+        background--hover: #ffa300,
         background--disabled: #eee,
         color: #111,
         color--disabled: #bbb
